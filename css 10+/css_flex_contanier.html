@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Conteiner</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <p>Logo</p>
+        </div>
+        <div class="search">
+            <input type="text" id="navsearch" placeholder="search here..." class="search" onkeyup="navsearch()">
+        </div>
+        <div class="navmenu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>
+        <button class="hamberger" onclick="hamberger()">&#9776;</button>
+    </div>
+
+
+
+
+
+    <div class="row">
+
+        <div class="col-25">
+
+            <h2 style="text-align: center;">100+ CSS Concept</h2>
+            <a href="flex_box.html">CSS flex_box</a>
+            <a href="css_flex_contanier.html" class="active">Flex Container</a>
+            <a href="flex_items.html">Flex items</a>
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="col-75">
+            <div class="projectname">
+                <h1>CSS Flex Container🫙</h1>
+            </div>
+
+            <div class="beginnerpurpose">
+                <div class="condition">
+
+
+                    <h3>The flex container Properties</h3>
+
+                    <ul>
+                        <li>flex-direction</li>
+                        <li>flex-wrap</li>
+                        <li>align-items</li>
+                        <li>justify-content</li>
+                        <li>align-content</li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="beginnersection" id="beginner">
+                <section>
+                    <h2>flex-direction</h2>
+
+                    <ul>
+                        <li>row: Default value. Items are placed horizontally, from left to right.</li>
+                        <li>row-reverse: Items are placed horizontally, from right to left</li>
+                        <li>column: Items are placed vertically, from top to bottom</li>
+                        <li>column-reverse: Items are placed vertically, from bottom to top</li>
+
+                    </ul>
+
+
+                </section>
+
+
+
+                <div class="beginnersection" id="beginner">
+                    <section>
+                        <h2>flex-wrap</h2>
+
+                        <ul>
+                            <li>nowrap: (Default) Flex items are placed on a single line.</li>
+                            <li>wrap: Flex items will wrap onto multiple lines if there's not enough space for them on a
+                                single line</li>
+                            <li>wrap-reverse: Similar to wrap, but the order of the lines is reversed</li>
+
+                            <h3 style="text-align: center;">Difference between <i>flex-wrap & white-space</i></h3>
+
+                            <li><strong>flex-wrap </strong>This property controls whether the flex items within a flex
+                                container are forced onto one line or can wrap onto multiple lines</li>
+                            <li><strong>white-space</strong> controls how white space inside an element is handled,
+                                including whether text should wrap to the next line or not.</li>
+
+
+                        </ul>
+                    </section>
+
+
+
+
+                    <section>
+                        <h2>align-items</h2>
+                        <p>(align-items usually controls vertical alignment)</p>
+
+                        <ul>
+                            <li>stretch (default): Items stretch to fill the container's height</li>
+                            <li>flex-start: Items align at the top.</li>
+                            <li>flex-end: Items align at the bottom</li>
+                            <li>center: Items align in the center vertically</li>
+                            <li>baseline: Items align based on their text baselines</li>
+
+                            <h2>Application</h2>
+
+                            <li>Mobile-Responsive Design</li>
+                            <li>Equal Height Columns</li>
+                            <li>Vertical Centering of Elements</li>
+                        </ul>
+                    </section>
+
+
+
+
+
+
+                    <section>
+                        <h2>justify-content</h2>
+                        <p>The justify-content align items horizontally or vertically depending on the direction of the
+                            main axies(flex-direction)</p>
+
+
+                        <ul>
+                            <li>flex-start: Items align to the start</li>
+                            <li>flex-end: Items align to the end</li>
+                            <li>center: Items center along the main axis</li>
+                            <li>space-between: Even spacing between items, with the first item at the start and the last
+                                at the end</li>
+                            <li>space-around: Even spacing around items, with half-space on the edges.</li>
+
+                            <h2>Application</h2>
+
+                            <li>Navigation Bars: space-between spreads links evenly</li>
+                            <li>Button Groups: space-around provides uniform spacing</li>
+                            <li>Footers: space-evenly distributes elements like icons</li>
+                            <li>Hero Sections: center aligns content in the middle</li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+                        <h2>align-content</h2>
+                        <p>align-content is used to arrange items in multiple rows or columns within a container when there is extra space. It determines how those rows or coloumns are positioned and spaced within the container.</p>
+
+
+                        
+                    </section>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="index.js">
+        </script>
+
+        <script>
+
+        </script>
+
+
+</body>
+
+</html>

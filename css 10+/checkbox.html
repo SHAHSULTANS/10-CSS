@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckBox</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+    </style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <p>Logo</p>
+        </div>
+        <div class="search">
+            <input type="text" id="navsearch" placeholder="search here..." class="search" onkeyup="navsearch()">
+        </div>
+        <div class="navmenu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>
+        <button class="hamberger" onclick="hamberger()">&#9776;</button>
+    </div>
+
+
+
+
+    <div class="row">
+
+        <div class="col-25">
+
+            <h2 style="text-align: center;">100+ CSS Concept</h2>
+            <a href="flex_box.html" >CSS flex_box</a>
+            <a href="css_flex_contanier.html">Flex Container</a>
+            <a href="flex_items.html" >Flex items</a>
+            <a href="checkbox.html" class="active">ChckBox</a>
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="col-75">
+            <div class="projectname">
+                <h1>CheckBox☑️</h1>
+            </div>
+
+            <div class="beginnerpurpose">
+                <div class="condition">
+                   
+                   <h3>A checkbox is an HTML element that allows user to select one or more options form a list of predefined choices.</h3>
+
+                    <!-- <ul>
+                        <li>order</li>
+                        <li>flex-grow</li>
+                        <li>flex-shrink</li>
+                        <li>flex-basis</li>
+                    </ul> -->
+                </div>
+            </div>
+
+            <div class="showcontent" >
+                
+
+                <h2>Application🌐</h2>
+                <h4>Agree to Terms and Conditions</h4>
+                <p>Users often need to agree to terms and conditions before submitting form.</p>
+                <div style="background-color: #fff;padding:5px">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms"><span>I agree to the Terms and Conditions.</span>
+
+                    </label>
+
+                </div>
+            </div>
+
+
+            <!-- <div class="htmlcode snipet">
+                <h2>HTML Snapshot for order</h2>
+                <div class="htmlcontainer">
+                    <div class="html">
+                        <pre>
+<code>
+&lt;div class="flex-container"&gt;
+    &lt;div style="order: 2;"&gt;One&lt;/div&gt;
+    &lt;div style="order: 3;"&gt;Two&lt;/div&gt;
+    &lt;div style="order: 1;"&gt;Three&lt;/div&gt;
+&lt;/div&gt; 
+</code>
+</pre>
+
+
+                    </div>
+                </div>
+            </div> -->
+
+
+
+
+
+
+            <div class="showcontent" style="background-color: #bcd;">
+                
+                <h4>Survey or Feedback Forms:</h4>
+                <p>In surveys, checkboxes allows users to select multiple applicable options from a list of choices</p>
+
+                <form action="">
+                    <p>Which programming languages do you use?</p>
+                    <label ><input type="checkbox">HTML</label>
+                    <label ><input type="checkbox">CSS</label>
+                    <label ><input type="checkbox">JavaScript</label>
+
+                    
+                </form>
+                
+            </div>
+
+
+            <div class="htmlcode snipet">
+                <h2>HTML Snapshot for flex-grow</h2>
+                <div class="htmlcontainer">
+                    <div class="html">
+                        <pre>
+<code>
+&lt;div class="flex-container"&gt;
+    &lt;div style="flex-grow:0.3"&gt;One&lt;/div&gt;
+    &lt;div style="flex-grow:0.7"&gt;Two&lt;/div&gt;
+    &lt;div style="flex-grow:8"&gt;Three&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="showcontent" style="background-color: #adf;">
+                <h2>flex-shrink</h2>
+                <p>flex-shrink determines how much an item will shrink relative to other flex items within a container.</p>
+                <p style="color:rgba(255, 8, 0, 0.971);">Resize the browser window & how to shrink</p>
+               
+
+                <div class="flex-container">
+                    <div style="flex-shrink:0">One</div>
+                    <div style="flex-shrink:2">Two</div>
+                    <div style="flex-shrink:1">Three</div>
+                </div>
+
+                <h2>Application</h2>
+                <ul>
+                    <li>Dashboard Widgets</li>
+                    <li>Responsive Footers etc</li>
+                </ul>
+            </div>
+
+
+            <div class="htmlcode snipet">
+                <h2>HTML Snapshot for flex</h2>
+                <div class="htmlcontainer">
+                    <div class="html">
+                        <pre>
+<code>
+&lt;div class="flex-container"&gt;
+    &lt;div style="flex-shrink:0"&gt;One&lt;/div&gt;
+    &lt;div style="flex-shrink:2"&gt;Two&lt;/div&gt;
+    &lt;div style="flex-shrink:1"&gt;Three&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="showcontent" style="background-color: #bcd;">
+                <h2>flex-basis</h2>
+                <p>The flex-basis property specifies the initial length of a flex item.</p>
+               
+
+                <div class="flex-container">
+                    <div>One</div>
+                    <div style="flex-basis: 200px;">Two</div>
+                    <div>Three</div>
+                </div>
+
+                <h2>Application</h2>
+                <ul>
+                    <li>Responsive Layout</li>
+                    <li>Image gallery etc</li>
+                </ul>
+            </div>
+
+
+            <div class="htmlcode snipet">
+                <h2>HTML Snapshot for flex-grow</h2>
+                <div class="htmlcontainer">
+                    <div class="html">
+                        <pre>
+<code>
+&lt;div class="flex-container"&gt;
+    &lt;div&gt;One&lt;/div&gt;
+    &lt;div style="flex-basis: 200px;"&gt;Two&lt;/div&gt;
+    &lt;div&gt;Three&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="csscode snipet">
+                <h2>CSS</h2>
+
+                <div class="csscontainer">
+                    <div class="css">
+                        <pre>
+<code>
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+}
+.flex-container div{
+    width: 100px;
+    line-height: 100px;
+    background-color: white;
+    margin:10px;
+    text-align: center;
+}
+</code>
+</pre>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+    <script src="index.js">
+    </script>
+
+    <script>
+        
+    </script>
+
+
+</body>
+
+</html>
